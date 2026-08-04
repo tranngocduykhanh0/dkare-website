@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sản phẩm sơn phục hồi nội thất ô tô D.KARE: Sơn nhựa DN-1, Sơn da DL-1, Phụ kiện. Bảng giá minh bạch.">
+    <title>Sản Phẩm & Bảng Giá — D.KARE</title>
+    <script src="https://cdn.tailwindcss.com"></script><script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>tailwind.config={theme:{extend:{fontFamily:{sans:['Montserrat','sans-serif']},colors:{primary:'#111111',accent:'#B22222',surface:'#F5F5F5','text-primary':'#1A1A1A','text-secondary':'#666666'}}}}</script>
+    <style>body{font-family:'Montserrat',sans-serif;background:#fff;color:#1A1A1A}.glass-nav{background:rgba(255,255,255,.85);backdrop-filter:blur(16px);border-bottom:1px solid rgba(0,0,0,.06)}.nav-link{position:relative}.nav-link::after{content:'';position:absolute;bottom:-4px;left:0;width:0;height:2px;background:#B22222;transition:width .3s}.nav-link:hover::after{width:100%}</style>
+</head>
+<body>
+<header class="fixed top-0 left-0 w-full z-50 glass-nav"><div class="max-w-6xl mx-auto flex items-center justify-between px-6 py-4">
+    <a href="index.html" class="flex items-center no-underline"><span class="text-2xl font-extrabold text-primary">D</span><span class="text-2xl font-extrabold text-accent">.</span><span class="text-2xl font-extrabold text-primary">KARE</span></a>
+    <nav class="hidden lg:flex gap-8"><a href="index.html" class="nav-link text-sm font-medium">Trang chủ</a><a href="san-pham.html" class="nav-link text-sm font-medium text-accent">Sản phẩm</a><a href="quy-trinh.html" class="nav-link text-sm font-medium">Quy trình</a><a href="blog.html" class="nav-link text-sm font-medium">Blog</a><a href="lien-he.html" class="nav-link text-sm font-medium">Liên hệ</a></nav>
+    <a href="lien-he.html" class="hidden lg:block bg-accent text-white px-5 py-2.5 rounded-full text-sm font-semibold">Liên hệ</a>
+    <button id="mb-btn" class="lg:hidden p-2"><i data-lucide="menu" class="w-6 h-6" id="mb-icon"></i></button>
+</div></header>
+
+<main class="pt-24"><div class="max-w-6xl mx-auto px-6 py-4 text-sm"><a href="index.html" class="hover:text-accent">Trang chủ</a> / <span class="font-medium">Sản phẩm</span></div>
+
+<section class="py-16"><div class="max-w-6xl mx-auto px-6"><h1 class="text-4xl font-bold mb-4">Dòng sơn & phụ kiện</h1>
+<p class="text-text-secondary text-lg mb-10">Click vào từng sản phẩm để xem chi tiết.</p>
+
+<div class="flex flex-wrap gap-3 mb-10"><button class="tab-btn px-6 py-3 rounded-full font-semibold text-sm bg-accent text-white" data-tab="nhua">Sơn Nhựa DN-1</button><button class="tab-btn px-6 py-3 rounded-full font-semibold text-sm bg-white border" data-tab="da">Sơn Da DL-1</button><button class="tab-btn px-6 py-3 rounded-full font-semibold text-sm bg-white border" data-tab="pk">Phụ Kiện</button></div>
+
+<div id="tab-nhua" class="tab-panel grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <a href="san-pham/dn-1-bk-1.html" class="block bg-white rounded-2xl p-6 border hover:shadow-lg transition-shadow"><h3 class="font-bold text-lg">DN-1-BK-1</h3><p class="text-text-secondary text-sm">Sơn nhựa Đen 1L</p><p class="text-accent font-bold mt-3">1.100.000₫</p></a>
+    <a href="san-pham/dn-1-wh-1.html" class="block bg-white rounded-2xl p-6 border hover:shadow-lg transition-shadow"><h3 class="font-bold text-lg">DN-1-WH-1</h3><p class="text-text-secondary text-sm">Sơn nhựa Trắng 1L</p><p class="text-accent font-bold mt-3">1.100.000₫</p></a>
+    <a href="san-pham/dn-1-bk-4.html" class="block bg-white rounded-2xl p-6 border hover:shadow-lg transition-shadow"><h3 class="font-bold text-lg">DN-1-BK-4</h3><p class="text-text-secondary text-sm">Sơn nhựa Đen 4L</p><p class="text-accent font-bold mt-3">3.800.000₫</p></a>
+    <a href="san-pham/dn-1-or-1.html" class="block bg-white rounded-2xl p-6 border border-accent/30 relative"><span class="absolute top-3 right-3 bg-accent text-white text-xs px-2 py-0.5 rounded-full">Đặc biệt</span><h3 class="font-bold text-lg">DN-1-OR-1</h3><p class="text-text-secondary text-sm">Sơn nhựa Cam đậm 1L</p><p class="text-accent font-bold mt-3">1.500.000₫</p></a>
+    <a href="san-pham/dn-1-pr-1.html" class="block bg-white rounded-2xl p-6 border border-accent/30 relative"><span class="absolute top-3 right-3 bg-accent text-white text-xs px-2 py-0.5 rounded-full">Đặc biệt</span><h3 class="font-bold text-lg">DN-1-PR-1</h3><p class="text-text-secondary text-sm">Sơn nhựa Tím đỏ 1L</p><p class="text-accent font-bold mt-3">1.500.000₫</p></a>
+</div>
+
+<div id="tab-da" class="tab-panel hidden grid md:grid-cols-2 gap-6">
+    <a href="san-pham/dl-1-bk-05.html" class="block bg-white rounded-2xl p-6 border hover:shadow-lg"><h3 class="font-bold text-lg">DL-1-BK-05</h3><p class="text-text-secondary text-sm">Sơn da Đen 500ml</p><p class="text-accent font-bold mt-3">900.000₫</p></a>
+    <a href="san-pham/dl-1-bk-1.html" class="block bg-white rounded-2xl p-6 border hover:shadow-lg"><h3 class="font-bold text-lg">DL-1-BK-1</h3><p class="text-text-secondary text-sm">Sơn da Đen 1L</p><p class="text-accent font-bold mt-3">1.600.000₫</p></a>
+</div>
+
+<div id="tab-pk" class="tab-panel hidden grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    <a href="san-pham/p-pp.html" class="block bg-white rounded-2xl p-6 border hover:shadow-lg"><h3 class="font-bold text-lg">P-PP</h3><p class="text-text-secondary text-sm">Sơn lót nhựa PP</p><p class="text-accent font-bold mt-3">400.000₫</p></a>
+    <a href="san-pham/p-mc.html" class="block bg-white rounded-2xl p-6 border hover:shadow-lg"><h3 class="font-bold text-lg">P-MC</h3><p class="text-text-secondary text-sm">Sơn phủ nhám Matte Clear</p><p class="text-accent font-bold mt-3">900.000₫</p></a>
+    <a href="san-pham/p-hn.html" class="block bg-white rounded-2xl p-6 border hover:shadow-lg"><h3 class="font-bold text-lg">P-HN</h3><p class="text-text-secondary text-sm">Chất đóng rắn sơn nhựa</p><p class="text-accent font-bold mt-3">850.000₫</p></a>
+    <a href="san-pham/p-hl.html" class="block bg-white rounded-2xl p-6 border hover:shadow-lg"><h3 class="font-bold text-lg">P-HL</h3><p class="text-text-secondary text-sm">Chất đóng rắn sơn da</p><p class="text-accent font-bold mt-3">500.000₫</p></a>
+    <a href="san-pham/p-fx.html" class="block bg-white rounded-2xl p-6 border hover:shadow-lg"><h3 class="font-bold text-lg">P-FX</h3><p class="text-text-secondary text-sm">Chất cố định màu Fixative</p><p class="text-accent font-bold mt-3">1.000.000₫</p></a>
+    <a href="san-pham/p-lp.html" class="block bg-white rounded-2xl p-6 border hover:shadow-lg"><h3 class="font-bold text-lg">P-LP</h3><p class="text-text-secondary text-sm">Sơn lót da Primer</p><p class="text-accent font-bold mt-3">650.000₫</p></a>
+</div>
+
+<div id="pricing" class="mt-20"><h2 class="text-3xl font-bold mb-4">Bảng giá minh bạch</h2><div class="overflow-x-auto rounded-2xl border"><table class="w-full text-left"><thead><tr class="bg-primary"><th class="px-6 py-4 text-white text-sm">Mã SP</th><th class="px-6 py-4 text-white text-sm">Tên</th><th class="px-6 py-4 text-white text-sm">Dung tích</th><th class="px-6 py-4 text-white text-sm">Giá</th></tr></thead><tbody class="divide-y"><tr><td class="px-6 py-3 text-sm font-medium">DN-1-BK-1</td><td class="px-6 py-3 text-sm">Sơn nhựa Đen</td><td class="px-6 py-3 text-sm">1L</td><td class="px-6 py-3 text-sm font-bold text-accent">1.100.000₫</td></tr><tr><td class="px-6 py-3 text-sm font-medium">DL-1-BK-1</td><td class="px-6 py-3 text-sm">Sơn da Đen</td><td class="px-6 py-3 text-sm">1L</td><td class="px-6 py-3 text-sm font-bold text-accent">1.600.000₫</td></tr><tr><td class="px-6 py-3 text-sm font-medium">P-PP</td><td class="px-6 py-3 text-sm">Sơn lót nhựa PP</td><td class="px-6 py-3 text-sm">1L</td><td class="px-6 py-3 text-sm font-bold text-accent">400.000₫</td></tr></tbody></table></div></div>
+</div></section></main>
+
+<footer class="bg-primary py-8"><div class="text-center"><p class="text-white/40 text-sm">&copy; 2025 D.KARE Việt Nam.</p></div></footer>
+<script>lucide.createIcons();document.getElementById('mb-btn').addEventListener('click',()=>{const m=document.getElementById('mobile-menu'),i=document.getElementById('mb-icon');m.classList.toggle('hidden');i.setAttribute('data-lucide',m.classList.contains('hidden')?'menu':'x');lucide.createIcons()});document.querySelectorAll('.tab-btn').forEach(b=>b.addEventListener('click',()=>{const t=b.getAttribute('data-tab');document.querySelectorAll('.tab-btn').forEach(b=>{b.classList.remove('bg-accent','text-white');b.classList.add('bg-white','border')});b.classList.add('bg-accent','text-white');document.getElementById('tab-nhua').classList.toggle('hidden',t!=='nhua');document.getElementById('tab-da').classList.toggle('hidden',t!=='da');document.getElementById('tab-pk').classList.toggle('hidden',t!=='pk')}));</script>
+</body>
+</html>
